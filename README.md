@@ -3,6 +3,9 @@
 This is the [jQuery TreeGrid](https://github.com/maxazan/jquery-treegrid) extension for Yii 2. It encapsulates TreeGrid component in terms of Yii widgets,
 and thus makes using TreeGrid component in Yii applications extremely easy
 
+由于 [leandrogehlen/yii2-treegrid](https://github.com/leandrogehlen/yii2-treegrid) 不怎么维护 所以建立该项目
+
+
 [![Yii2](https://img.shields.io/badge/Powered_by-Yii_Framework-green.svg?style=flat)](http://www.yiiframework.com/)
 [![Latest Stable Version](https://poser.pugx.org/jianyan/yii2-treegrid/v/stable.png)](https://packagist.org/packages/jianyan/yii2-treegrid)
 [![Total Downloads](https://poser.pugx.org/jianyan/yii2-treegrid/downloads.png)](https://packagist.org/packages/jianyan/yii2-treegrid)
