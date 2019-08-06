@@ -17,13 +17,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist jianyan/yii2-treegrid "*"
+php composer.phar require --prefer-dist jianyan74/yii2-treegrid "*"
 ```
 
 or add
 
 ```
-"jianyan/yii2-treegrid": "*"
+"jianyan74/yii2-treegrid": "*"
 ```
 
 to the require section of your `composer.json` file.
