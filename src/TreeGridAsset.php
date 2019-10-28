@@ -7,12 +7,10 @@ use yii\web\AssetBundle;
 /**
  * This asset bundle provides the [jQuery TreeGrid plugin library](https://github.com/maxazan/jquery-treegrid)
  */
-class TreeGridAsset extends AssetBundle {
-
-    public $sourcePath = '@bower/jquery-treegrid';
-
+class TreeGridAsset extends AssetBundle
+{
     public $js = [
-       'js/jquery.treegrid.min.js',
+        'js/jquery.treegrid.min.js',
     ];
 
     public $css = [
@@ -20,7 +18,12 @@ class TreeGridAsset extends AssetBundle {
     ];
 
     public $depends = [
-       'yii\web\JqueryAsset'
+        'yii\web\JqueryAsset',
     ];
 
-} 
+    public function init()
+    {
+        $this->sourcePath = __DIR__ . '/resources';
+        parent::init();
+    }
+}
